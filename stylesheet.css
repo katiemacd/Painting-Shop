@@ -1,0 +1,281 @@
+/* General styling for most files */
+body {
+    background-color: #7fbcbb;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #333;
+    padding: 10px;
+    color: white;
+}
+
+/* Styling for painting blocks in index */
+.painting {
+    color: #333;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px;
+    display: inline-block;
+    width: 300px;
+    height: 540px;
+    text-align: center;
+    position: relative;
+    vertical-align: top;
+}
+.painting p {
+    text-align: left;
+}
+
+.painting:hover {
+    background: #f0f0f0;
+}
+
+.painting img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+.painting p {
+    margin: 5px 0;
+}
+
+.painting button {
+    background-color: #333;
+    color: white;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.painting button:hover {
+    background-color: #555;
+}
+
+/* Styling for order form */
+.orderPainting {
+    color: #333;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px;
+    display: inline-block;
+    width: 500px;
+    text-align: left;
+    position: relative;
+    vertical-align: top;
+}
+.orderPainting img {
+    max-width: 100%;
+    height: auto;
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+.form {
+    color: #333;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+    display: inline-block;
+    width: 250px;
+    text-align: left;
+}
+
+.form label {
+    display: block;
+    margin: 10px 0;
+}
+
+.form input,
+.form textarea {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0 15px 0;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.form input[type="submit"] {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.form input[type="submit"]:hover {
+    background-color: #555;
+}
+
+
+/* Styling for pagination */
+.pagination {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    justify-content: center;
+}
+
+.pagination a {
+    margin: 0 5px;
+    text-decoration: none;
+    color: #333;
+    padding: 5px 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    display: inline-block;
+    background-color: white;
+}
+
+.pagination a:hover {
+    background-color: lightgrey;
+}
+
+.table table {
+    border-collapse: collapse;
+    width: 80%;
+    margin: 20px auto;
+    background-color: white;
+}
+.table th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+.table th {
+    background-color: #333;
+    color: white;
+}
+.table form {
+    width: 80%;
+    margin: 20px auto;
+}
+.table form p {
+    margin-bottom: 15px;
+}
+.table button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.table button:hover {
+    background-color: #45a049;
+}
+.addPainting form {
+    width: 60%;
+    margin: 20px auto;
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.addPainting form p {
+    margin-bottom: 15px;
+    text-align: left;
+}
+.addPainting form input[type="text"], form input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+}
+#logout a {
+    position: absolute;
+    top: 25px;
+    right: 10px;
+    display: block;
+    padding: 10px 15px;
+    background-color: #333;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 20px;
+}
+#logout a:hover {
+    background-color: #333;
+    color: #bab8bc;
+}
+
+.home a {
+    position: absolute;
+    top: 5px;
+    left: 10px;
+    display: block;
+    padding: 10px 15px;
+    background-color: #333;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 60px;
+}
+
+.home a:hover {
+    background-color: #333;
+    color: #bab8bc;
+}
+.basket a {
+    position: absolute;
+    top: 25px;
+    right: 10px;
+    display: block;
+    padding: 10px 15px;
+
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 25px;
+}
+.basket a:hover {
+    background-color: #333;
+    color: #bab8bc;
+}
+.fas {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    display: block;
+    padding: 10px 15px;
+
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 60px;
+}
+.admin-button a{
+    position: absolute;
+    top: 25px;
+    left: 10px;
+    display: block;
+    padding: 10px 15px;
+
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 25px;
+}
+.admin-button a:hover {
+    background-color: #333;
+    color: #bab8bc;
+}
